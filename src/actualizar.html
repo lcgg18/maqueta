@@ -11,27 +11,30 @@
     <title>Actualizar informacion de usuario</title>
 </head>
 <body>
+    
     <h1>Market PLace</h1>
         <div class="container-formulario">
-            <h2>Actualizacion de usuario</h2>
-            <form" class="formulario">
-                    <div class="inputForm">
+            <h2>Actualización de usuario</h2>
+            <form" id="formulario">
+                    <div class="inputForm" id="inputForm">
                         <select class="inputAct" id="tipoId">
                             <option>Cedula de Ciudadania</option>
                             <option>Cedula de Extranjeria</option>
                             <option>Pasaporte</option>
                         </select><br><br>
-                        <input class="inputAct" type="number" name="ID" size="50" placeholder="Ingrese su id"><br><br>
-                        <input class="inputAct" type="text" name="nombre" size="50" placeholder="Ingrese su nombre"><br><br>
-                        <input class="inputAct"class:"inputAct" type="text" name="apellidos" size="50" placeholder="Ingrese su apellidos"><br><br>
-                        <input class="inputAct" type="email" name="email" size="50" placeholder="Ingrese su email"><br><br>  
-                        <input class="inputAct" type="password" name="password" size="50" placeholder="Ingrese su contraseña"><br><br>
+                        <input class="inputAct" id="inputAct" class="inputNumber" type="number" name="ID" size="50" placeholder="Ingrese su identificacion"><br><br>
+                        <input class="inputAct" id="inputAct" type="text" name="nombre" size="50" placeholder="Ingrese su nombre"><br><br>
+                        <input class="inputAct" id="inputAct" type="text" name="apellidos" size="50" placeholder="Ingrese su apellidos"><br><br>
+                        <input class="inputAct" id="inputAct" type="email" name="email" size="50" placeholder="Ingrese su email"><br><br>
+                        <input class="inputAct" id="inputAct" class="inputNumber" type="number" name="telefono" size="50" placeholder="Ingrese su telefono"><br><br>  
+                        <input class="inputAct" id="inputAct" type="password" name="password" size="50" placeholder="Ingrese su contraseña"><br><br>
                     </div>
-                    <div class="botones2">
-                        <input class="boton_personalizado2 id="btnGrabar" type="submit" value="Grabar">
-                        <input class="boton_personalizado2 id="btnBorrar" type="submit" value="Borrar"> 
-                    </div>    
             </form>
+            <div class="botones2">
+                <a class="boton_personalizado2" id="btnGrabar" type="submit" value="Grabar"href="#">Grabar</a>
+                <a class="boton_personalizado3" id="btnBorrar" type="submit" value="Borrar" href="#">Borrar</a>
+            </div>    
         </div><br>
+        <script type="text/javascript" src="/javascript/index.js"></script>
 </body>
 </html>
